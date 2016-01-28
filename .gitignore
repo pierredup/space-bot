@@ -1,0 +1,6 @@
+/node_modules
+/src/space-bot.js
+/src/space-bot.js.map
+/test/space-bot-test.js
+/test/space-bot-test.js.map
+/.hubot_history
