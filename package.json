@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "author": "Pierre du Plessis",
   "license": "MIT",
-  "keywords": "hubot, hubot-script, space, movies",
+  "keywords": "hubot, hubot-script, space, movies, hubot-scripts",
   "repository": {
     "type": "git",
     "url": "git://github.com/pierredup/space-bot.git"
