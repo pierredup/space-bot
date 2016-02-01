@@ -40,3 +40,7 @@ hubot>> Agent J needs help so he is sent to find Agent K and restore his memory.
 * List the main cast members
 * Get the number of movies or series made in a franchise
 * List all movies or series of a franchise
+
+## Demo
+
+To test the bot or play around with it, you can join the Slack group [https://botmakers.slack.com](https://botmakers.slack.com), then join the #test-space-bot channel
