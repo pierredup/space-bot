@@ -1,7 +1,7 @@
 {
   "name": "hubot-space-bot",
   "description": "A simple hubot script that gives you random quotes and trivia about space movies",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Pierre du Plessis",
   "license": "MIT",
   "keywords": "hubot, hubot-script, space, movies, hubot-scripts",
