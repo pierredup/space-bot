@@ -31,7 +31,6 @@ module.exports = (robot) ->
 
   robot.respond /wh(ich|at) year was (.*) made/i, (res) ->
     options = getMovieInfo(res.match[2])
-    console.log(options);
 
     omdb.get options, true, (err, movie) ->
       res.send movie.title + " was made in " + movie.year
@@ -51,7 +50,6 @@ module.exports = (robot) ->
     options = getMovieInfo(res.match[1])
 
     omdb.get options, {tomatoes: true}, (err, movie) ->
-      console.log(movie)
       res.send "The rotten tomatoes rating for " + movie.title + " is " + movie.tomato.meter
 
   robot.respond /show me the poster for (.*)/i, (res) ->
