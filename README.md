@@ -28,18 +28,28 @@ user1>> hubot what is the plot for men in black II
 hubot>> Agent J needs help so he is sent to find Agent K and restore his memory.
 ```
 
-## Available actions
+## Available commands
 
-* Get list of all available space movies
-* Get year when a movie was made
-* Get the director of a movie
-* Show the plot of a movie
-* Get the rotten tomatoes rating
-* View the movie poster
-* List all the writers of a movie
-* List the main cast members
-* Get the number of movies or series made in a franchise
-* List all movies or series of a franchise
+* show me all space movies
+* wh(ich|at) year was (.*) made
+  * E.G `what year was Apollo 13 made`
+* who directed (.*)
+  * E.G `who directed Avatar`
+* what is the plot for (.*)
+  * E.G `what is the plot for men in black ii`
+* what is the tomato rating for (.*)
+  * E.G `what is the tomato rating for aliens`
+* show me the poster for (.*)
+  * E.G `show me the poster for Avatar`
+* who wrote (.*)
+  * E.G `who wrote District 9`
+* who starred in (.*)
+  * E.G `who starred in men in black`
+* how many (.*) (movies|series)
+  * E.G `how many star trek movies was made`
+  * E.G `how many star trek movies exists`
+* list all (.*) (movies?|series)
+  * E.G `list all star wars movies`
 
 ## Demo
 
